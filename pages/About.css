@@ -1,0 +1,54 @@
+.about-container {
+  max-width: 720px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2c3e50;
+  line-height: 1.6;
+  background: #fff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.about-container h1 {
+  font-size: 2.8rem;
+  margin-bottom: 24px;
+  font-weight: 700;
+  color: #1e40af; /* Deep blue */
+  text-align: center;
+}
+
+.about-container h2 {
+  font-size: 1.8rem;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  color: #2563eb; /* Blue */
+  border-bottom: 2px solid #2563eb;
+  padding-bottom: 6px;
+}
+
+.about-text {
+  font-size: 1.125rem;
+  margin-bottom: 20px;
+}
+
+.about-list {
+  list-style-type: disc;
+  padding-left: 24px;
+  font-size: 1.125rem;
+  margin-bottom: 20px;
+}
+
+.about-list li {
+  margin-bottom: 10px;
+}
+
+.about-container a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.about-container a:hover {
+  text-decoration: underline;
+}
